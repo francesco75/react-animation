@@ -1,0 +1,41 @@
+h2{
+  text-align: center;
+}
+
+img{
+
+      width:300px ;
+      height:300px;
+      position: absolute; 
+      top: 0px; 
+      left: 0px; 
+      transition: all 5s;
+      
+}
+
+
+#item { 
+  width:100px ;
+  height:100px;
+  cursor: pointer;
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  transition: all 1s;
+}
+#img1{
+       width: 200px;
+       height: 200px;    
+
+
+}
+
+label{
+        position: absolute; 
+        top: 0px; 
+        left: 0px; 
+        transition: all 5s;
+        font-weight: bold;
+
+
+}
