@@ -1,6 +1,6 @@
 {
-  "homepage": "http://francesco75.github.io/react-animation",
-  "name": "react-animation",
+  "homepage": "http://francesco75.github.io/animation",
+  "name": "animation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
