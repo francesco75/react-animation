@@ -1,5 +1,7 @@
 import React from 'react';
 import { randomPos,fadeIn,eff3d  } from './Position';
+import  smileface  from './images/smile.jpg';
+import  strandpalace  from './images/strand.jpg';
 import './App.css';
 
    
@@ -9,7 +11,7 @@ const StranImg = (props) =>{
 return (
           <img 
                 style={props.position}
-                src="/Images/strand.jpg" alt=""
+                src={strandpalace} alt="Strand Palace"
                                     
                 />
 )
@@ -77,7 +79,7 @@ increment(){
       { children }
       
       <button type="button" onClick={this.increment}  >Press Me</button>             
-      <img src="/Images/smile.jpg" id="item" alt="" title="Clik me" onClick={moveImage} />
+      <img src={smileface} id="item" alt="smile-face" title="Clik me" onClick={moveImage} />
     
   </div> 
         
